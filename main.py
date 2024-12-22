@@ -1,4 +1,9 @@
 import functions
+import time
+
+now = time.strftime("%b %d, %Y %H:%M:%S")
+
+print("It is", now)
 
 while True:
     user_choice = input("Please choose add, show, edit, complete or exit: ")
